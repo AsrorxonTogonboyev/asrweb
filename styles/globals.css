@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Medium.eot");
+  src: url("fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"),
+      url("fonts/Poppins-Medium.woff2") format("woff2"), url("fonts/Poppins-Medium.woff") format("woff"),
+      url("fonts/Poppins-Medium.ttf") format("truetype"), url("fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+body{
+  font-family:  "Poppins" ;
+  background-color: #1b121d;
+  background: linear-gradient(90deg, #1b121d 0, #120f2f 50%, #1b121d 100%);
+}
+ul{
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+}
+button{
+  background-color: #120f2f;
+  padding: 5px 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  color: aliceblue;
+  box-shadow: 0 0px 1px 1px inset rgba(187, 187, 187, 0.5), 0 0px 1px 1px rgb(187, 187, 187);
+  /* border:  1px solid rgba(187, 187, 187, 0.226); */
+  border: inherit;
+  transition: all 0.3s ease;
+}
+button:hover{
+  background-color: #120f2fd0;
+  cursor: pointer;
+  color: brown;
+  font-weight: bold;
+  box-shadow: 0 0 8px 3px inset rgba(187, 187, 187, 1), 0 0 1px 1px rgb(187, 187, 187);
+}
+button:focus{
+  outline: none;
+  box-shadow: 0 0 5px 3px inset rgba(187, 187, 187, 1), 0 0px 1px 1px rgb(187, 187, 187);
+
+}
+
+.box {
+  background-color: red;
+  color: black;
+  border: 5px solid blue;
+}
+
